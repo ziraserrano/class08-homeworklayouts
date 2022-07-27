@@ -28,7 +28,7 @@ body {
 
 header {
      height: 75px;
-     background: #5f748e;
+     background: #7189a6;
      font-size: 15px;
      font-weight: 900;
 }
@@ -81,8 +81,19 @@ header {
 
 .hero-main {
      height: 550px;
+     background-color: #7189a6;
+     color: white;
+     text-align: center;
+     padding-top: 150px;
      border: 2px solid black;
 }
+
+h1 {
+    font-size: 80%;
+
+}
+
+
 
 
 /****** WHY SECTION *******/
