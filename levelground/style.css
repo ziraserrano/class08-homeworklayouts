@@ -39,6 +39,7 @@ header {
 .right {
      height: 100%;
      width: 20%;
+     padding: 20px;
      float:left;
      border: 1px solid coral;
 }
@@ -49,7 +50,7 @@ header {
 
 .left li {
      color: white;
-     padding: 20px;
+     padding: 10px;
      float: left;
 }
 
@@ -66,7 +67,7 @@ header {
      padding-top: 10px;
 }
 
-.right button {
+.right > button {
      color: #5f748e;
      padding: 10px;
      border-radius: 5px;
@@ -74,8 +75,7 @@ header {
 }
 
 .right {
-     padding-left: 230px;
-     padding-top: 15px;
+     padding-left: 170px;
 }
 
 
@@ -86,24 +86,40 @@ header {
      background-color: #7189a6;
      color: white;
      text-align: center;
-     padding: 200px;
+     padding: 170px;
      border: 2px solid black;
 }
 
 .hero-main > h1 {
-     font-size: 80px;
+     font-size: 70px;
      font-weight: 700;
      padding-bottom: 40px;
 }
 
-
+.hero-main > p {
+     font-size: 20px;
+     padding-bottom: 40px;
+}
 
 
 /****** WHY SECTION *******/
 
 .why {
      height: 375px;
+     text-align: center;
+     padding: 100px;
      border: 2px solid coral;
+}
+
+.why > h3 {
+     font-size: 40px;
+     padding-bottom: 20px;
+
+}
+
+.why > p {
+     font-size: 20px;
+     padding: 0 350px 0 350px;
 }
 
 
@@ -121,6 +137,7 @@ header {
      border: 1px solid coral;
      float: left;
 }
+
 
 
 /****** VOLUNTEER SECTION *******/
