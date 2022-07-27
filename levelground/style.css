@@ -17,6 +17,9 @@
 	clear: both;
 }
 
+body {
+     font-family: 'Roboto', sans-serif;
+}
 
 /* ======== CODE BELOW ======== */
 
@@ -26,6 +29,8 @@
 header {
      height: 75px;
      background: #5f748e;
+     font-size: 15px;
+     font-weight: 900;
 }
 
 .left,
