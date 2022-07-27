@@ -162,8 +162,8 @@ header {
       height: 200px;
       width: 350px;
       margin-bottom: 30px;
-      background-color: #5f748e;
-      border: 2px solid #5f748e;
+      background-color: #7189a6;
+      border: 2px solid #7189a6;
 }
 
 .visit h4 {
@@ -195,7 +195,7 @@ header {
 }
 
 .btn:hover {
-    background-color: #5f748e; 
+    background-color: #7189a6; 
 }
 
 .btn a:hover {
