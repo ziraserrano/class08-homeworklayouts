@@ -26,17 +26,49 @@ body {
 }
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
 header {
-
+     height: 75px;
+     border: 2px solid black;
 }
+
+.left,
+.right {
+     height: 100%;
+     width: 20%;
+     float:left;
+     border: 1px solid coral;
+}
+
+.middle {
+     height: 100%;
+     width: 60%;
+     float: left;
+     border: 1px solid coral;
+}
+
+.hero-main {
+     height: 550px;
+     border: 2px solid black;
+}
+
+.why {
+     height: 375px;
+     border: 2px solid coral;
+}
+
+.visit {
+     height: 625px;
+     border: 2px solid black;
+}
+
+.volunteer {
+     height: 550px;
+     border: 2px solid coral;
+}
+
 
 footer {
-
+     height: 250px;
+     border: 2px solid black;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
