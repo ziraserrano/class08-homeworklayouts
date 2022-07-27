@@ -41,7 +41,7 @@ header {
      width: 20%;
      padding: 20px;
      float:left;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
 }
 
 .left ul {
@@ -58,7 +58,7 @@ header {
      height: 100%;
      width: 60%;
      float: left;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
 }
 
 .middle img {
@@ -87,7 +87,7 @@ header {
      color: white;
      text-align: center;
      padding: 170px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
 }
 
 .hero-main > h1 {
@@ -108,7 +108,7 @@ header {
      height: 375px;
      text-align: center;
      padding: 100px;
-     border: 2px solid coral;
+     /* border: 2px solid coral; */
 }
 
 .why > h3 {
@@ -127,7 +127,7 @@ header {
 
 .visit {
      height: 625px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
 }
 
 
@@ -135,24 +135,59 @@ header {
 .visityou {
      height: 100%;
      width: 50%;
-     padding: 100px;
+     /* padding: 100px; */
      background-color: #ededede9;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
      float: left;
 }
 
-.box1, 
-.box2 {
-     margin-left: 120px;
+/* separate code for box1 and box2 so they can sit close to each other - maybe float right and float left with margin in between */
+
+.box1 {
+     margin-top: 100px;
+     margin-left: 400px;
+     margin-right: 50px;
+     float: right;
 }
 
-.box {
+.box2 {
+     margin-top: 100px;
+     margin-right: 400px;     
+     margin-left: 50px;
+     float: left;
+}
+
+
+.bluebox {
       height: 200px;
       width: 350px;
+      margin-bottom: 30px;
       background-color: #5f748e;
       border: 2px solid #5f748e;
 }
 
+.visit h4 {
+     font-size: 22px;
+     font-weight: 700;
+     /* margin-left: 100px; */
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+.visit p {
+     font-size: 18px;
+     margin-bottom: 30px;
+     text-align: center;
+}
+
+.btn {
+     text-align: center;
+     margin-left: 90px;
+     width: 165px;
+     padding: 18px;
+     font-weight: bold;
+     border: 1px solid gray;
+}
 
 /****** VOLUNTEER SECTION *******/
 
