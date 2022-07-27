@@ -25,7 +25,7 @@
 
 header {
      height: 75px;
-     border: 2px solid black;
+     background: #5f748e;
 }
 
 .left,
@@ -36,11 +36,39 @@ header {
      border: 1px solid coral;
 }
 
+.left ul {
+    list-style: none;
+}
+
+.left li {
+     color: white;
+     padding: 8px;
+     float: left;
+}
+
 .middle {
      height: 100%;
      width: 60%;
      float: left;
      border: 1px solid coral;
+}
+
+.middle img {
+     padding-left: 50%;
+     padding-right: 50%;
+     padding-top: 10px;
+}
+
+.right button {
+     color: #5f748e;
+     padding: 10px;
+     border-radius: 5px;
+     border-style: none;
+}
+
+.right {
+     padding-left: 200px;
+     padding-top: 15px;
 }
 
 
