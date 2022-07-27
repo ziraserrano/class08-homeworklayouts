@@ -98,6 +98,8 @@ header {
 
 .hero-main > p {
      font-size: 20px;
+     padding-left: 150px;
+     padding-right: 150px;
      padding-bottom: 40px;
 }
 
@@ -145,14 +147,14 @@ header {
 
 .box1 {
      margin-top: 100px;
-     margin-left: 400px;
+     margin-left: 395px;
      margin-right: 50px;
      float: right;
 }
 
 .box2 {
      margin-top: 100px;
-     margin-right: 400px;     
+     margin-right: 395px;     
      margin-left: 50px;
      float: left;
 }
@@ -168,7 +170,7 @@ header {
 
 .visit h4 {
      font-size: 22px;
-     font-weight: 700;
+     font-weight: 900;
      /* margin-left: 100px; */
      text-align: center;
      margin-bottom: 30px;
@@ -206,13 +208,47 @@ header {
 
 .volunteer {
      height: 550px;
-     border: 2px solid coral;
+     text-align: center;
+     padding: 160px;
+     /* border: 2px solid coral; */
+}
+
+
+.volunteer > h3 {
+     font-size: 40px;
+     padding-bottom: 40px;
+
+}
+
+.volunteer > p {
+     font-size: 20px;
+     padding: 0 350px 0 350px; 
+     margin-bottom: 40px;
+}
+
+.volunteer > .btn {
+     margin-right: 90px;
+     background-color: white;
+}
+
+.btn a {
+     color: black;
+     text-decoration: none;
+}
+
+.volunteer > .btn:hover {
+    background-color: #ededede9;
+}
+
+.btn a:hover {
+     color: black;
 }
 
 /****** INFO SECTION *******/
 
 .info {
      height: 200px;
+     background-color: black;
      border: 2px solid black;
 }
 
@@ -234,6 +270,7 @@ header {
 
 footer {
      height: 75px;
+     background-color: black;
      border: 2px solid black;
 }
 
