@@ -17,14 +17,11 @@
 	clear: both;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
-body {
+/* ======== CODE BELOW ======== */
 
-}
 
+/****** HEADER *******/
 
 header {
      height: 75px;
@@ -46,29 +43,77 @@ header {
      border: 1px solid coral;
 }
 
+
+/****** HERO MAIN SECTION *******/
+
 .hero-main {
      height: 550px;
      border: 2px solid black;
 }
+
+
+/****** WHY SECTION *******/
 
 .why {
      height: 375px;
      border: 2px solid coral;
 }
 
+
+/****** VISIT SECTION *******/
+
 .visit {
      height: 625px;
      border: 2px solid black;
 }
+
+.visitgym,
+.visityou {
+     height: 100%;
+     width: 50%;
+     border: 1px solid coral;
+     float: left;
+}
+
+
+/****** VOLUNTEER SECTION *******/
 
 .volunteer {
      height: 550px;
      border: 2px solid coral;
 }
 
+/****** INFO SECTION *******/
 
-footer {
-     height: 250px;
+.info {
+     height: 200px;
      border: 2px solid black;
 }
 
+.nav-left {
+     height: 100%;
+     width: 18%;
+     border: 1px solid coral;
+     float: left;
+}
+
+.location-right {
+     height: 100%;
+     width: 18%;
+     border: 1px solid coral;
+     float: right;
+}
+
+/****** FOOTER SECTION *******/
+
+footer {
+     height: 75px;
+     border: 2px solid black;
+}
+
+.footer-text {
+     height: 100%;
+     width: 100%; /* might have to adjust to lower percentage later and add border-top */
+     border: 1px solid coral;
+
+}
