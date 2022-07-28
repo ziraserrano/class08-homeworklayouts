@@ -306,6 +306,35 @@ div > ul li {
      font-weight: 900;
 }
 
+.location-right {
+     padding: 40px 80px 0 5px;
+}
+
+.location-right > span {
+     padding: 10px 10px 10px 0px;
+     font-size: 14px;
+     font-weight: 900;
+     float: left;
+}
+
+.location-right > .address p {
+     font-size: 14px;
+     font-style: normal;
+     padding: 2px;
+}
+
+.info > .location-right > span {
+     color: gray;
+}
+
+.email {
+     color: gray;
+}
+
+
+
+
+
 /* COLOR STYLE FOR INFO/FOOTER SECTION BELOW */
 
 .nav-left,
