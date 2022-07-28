@@ -196,12 +196,12 @@ header {
      text-decoration: none;
 }
 
-.btn:hover {
+/* .btn:hover {
     background-color: #7189a6; 
-}
+} */
 
-.btn a:hover {
-     color: white;
+.visit .btn a:hover {
+     color: #7189a6;
 }
 
 /****** VOLUNTEER SECTION *******/
@@ -235,13 +235,13 @@ header {
      color: black;
      text-decoration: none;
 }
-
-.volunteer > .btn:hover {
+/* 
+.volunteer .btn:hover {
     background-color: #ededede9;
-}
+} */
 
-.btn a:hover {
-     color: black;
+.volunteer .btn a:hover {
+     color: #7189a6;
 }
 
 /****** INFO SECTION *******/
