@@ -257,27 +257,27 @@ header {
      width: 18%;
      padding-left: 10px;
      padding-top: 20px;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
      float: left;
 }
 
 .location-right {
      height: 100%;
      width: 18%;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
      float: right;
 }
 
 .icons {
      margin-right: 25px;
      float: left;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
 }
 
 .icons > ul li {
      padding: 10px;
      float: left;
-     border: 1px solid coral;
+     /* border: 1px solid coral; */
 }
 
 
