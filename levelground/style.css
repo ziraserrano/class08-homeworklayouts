@@ -255,6 +255,8 @@ header {
 .nav-left {
      height: 100%;
      width: 18%;
+     padding-left: 10px;
+     padding-top: 20px;
      border: 1px solid coral;
      float: left;
 }
@@ -266,6 +268,64 @@ header {
      float: right;
 }
 
+.icons {
+     margin-right: 25px;
+     float: left;
+     border: 1px solid coral;
+}
+
+.icons > ul li {
+     padding: 10px;
+     float: left;
+     border: 1px solid coral;
+}
+
+
+.sitemap > span, .sitemap > ul li {
+     /* padding: 5px 10px 5px 10px; */
+     float: left;
+     /* border: 1px solid coral; */
+}
+
+.contribute > span, .contribute > ul li {
+     /* padding: 5px 10px 5px 10px; */
+     float: left;
+     /* border: 1px solid coral; */
+}
+
+div > span {
+     padding: 15px 10px 0 10px;
+     margin-right: 150px;
+     font-size: 14px;
+     font-weight: 900;
+}
+
+div > ul li {
+     padding: 5px 10px;
+     font-size: 14px;
+     font-weight: 900;
+}
+
+/* COLOR STYLE FOR INFO/FOOTER SECTION BELOW */
+
+.nav-left,
+.location-right,
+footer {
+     color: white;
+}
+
+.nav-left span {
+     color: gray;
+}
+
+.info a {
+     text-decoration: none;
+     color: white;
+}
+
+/* COLOR STYLE FOR INFO/FOOTER SECTION ABOVE */
+
+
 /****** FOOTER SECTION *******/
 
 footer {
@@ -276,7 +336,19 @@ footer {
 
 .footer-text {
      height: 100%;
-     width: 100%; /* might have to adjust to lower percentage later and add border-top */
-     border: 1px solid coral;
-
+     width: 98%; 
+     margin-left: 1%;
+     margin-right: 1%;
+     border-top: 1px solid white;
+     padding: 20px 0 0 0px; 
+     font-size: 14px;
+     /* might have to adjust to lower percentage later and add border-top */
+     /* border: 1px solid coral; */
 }
+
+
+.footer-text > img {
+     padding-right: 5px;
+     float: right;
+}
+
