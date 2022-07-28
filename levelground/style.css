@@ -30,7 +30,7 @@ body {
 
 header {
      height: 75px;
-     background: #7189a6;
+     background: rgb(105, 118, 136);
      font-size: 15px;
      font-weight: 900;
 }
@@ -68,7 +68,7 @@ header {
 }
 
 .right > button {
-     color: #5f748e;
+     color: rgb(105, 118, 136);
      padding: 10px;
      border-radius: 5px;
      border-style: none;
@@ -83,7 +83,7 @@ header {
 
 .hero-main {
      height: 550px;
-     background-color: #7189a6;
+     background-color: rgb(105, 118, 136);
      color: white;
      text-align: center;
      padding: 170px;
@@ -164,8 +164,8 @@ header {
       height: 200px;
       width: 350px;
       margin-bottom: 30px;
-      background-color: #7189a6;
-      border: 2px solid #7189a6;
+      background-color: rgb(105, 118, 136);
+      border: 2px solid rgb(105, 118, 136);
 }
 
 .visit h4 {
@@ -201,7 +201,7 @@ header {
 } */
 
 .visit .btn a:hover {
-     color: #7189a6;
+     color: rgb(105, 118, 136);
 }
 
 /****** VOLUNTEER SECTION *******/
@@ -241,7 +241,7 @@ header {
 } */
 
 .volunteer .btn a:hover {
-     color: #7189a6;
+     color: rgb(105, 118, 136);
 }
 
 /****** INFO SECTION *******/
