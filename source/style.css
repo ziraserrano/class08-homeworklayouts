@@ -30,13 +30,33 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+    height: 75px;
+    border: 2px solid black;
 }
 
-footer {
 
+/*** HEADER STYLE ***/
+
+header > h1 {
+    height: 100%;
+    width: 25%;
+    float: left;
+    border: 1px solid coral;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+header > nav {
+    height: 100%;
+    width: 50%;
+    float: left;
+    border: 1px solid coral;
+}
+
+header > div {
+    height: 100%;
+    width: 25%;
+    float: left;
+    border: 1px solid coral;
+}
+
+/*** HERO-MAIN STYLE ***/
+
