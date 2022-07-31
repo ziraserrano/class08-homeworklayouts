@@ -31,7 +31,6 @@ body {
 /*******************************************/
 header {
     height: 55px;
-    border: 2px solid black;
 }
 
 header,
@@ -59,14 +58,12 @@ header > h1 {
     font-weight: 600;
     padding: 12px 0 0 40px;
     float: left;
-    border: 1px solid coral;
 }
 
 header > nav {
     height: 100%;
     width: 50%;
     float: left;
-    border: 1px solid coral;
 }
 
 nav ul {
@@ -84,7 +81,6 @@ header > div {
     width: 25%;
     padding: 8px 40px 0 0;
     float: left;
-    border: 1px solid coral;
 }
 
 header button {
@@ -105,7 +101,6 @@ header button a {
 
 .hero-main {
     height: 480px;
-    border: 2px solid black;
 }
 
 .hero-left {
@@ -113,14 +108,12 @@ header button a {
     width: 40%;
     padding: 70px 80px 0 70px;
     float: left;
-    border: 1px solid coral;
 }
 
 .hero-right {
     height: 100%;
     width: 60%;
     float: left;
-    border: 1px solid coral;
 }
 
 .hero-left span {
@@ -174,7 +167,6 @@ header button a {
 .feature {
     height: 300px;
     color: rgb(53, 70, 88);
-    border: 2px solid black;
 }
 
 .feature > section {
@@ -182,7 +174,6 @@ header button a {
     width: 25%;
     padding: 50px 40px 0 70px;
     float: left;
-    border: 1px solid coral;
 }
 
 .feature section > i {
@@ -214,7 +205,6 @@ header button a {
 
 .info-section {
     height: 250px;
-    border: 2px solid black;
 }
 
 .info-section h1 {
