@@ -66,6 +66,11 @@ header > nav {
     float: left;
 }
 
+header > i::before {
+    visibility: hidden;
+}
+
+
 nav ul {
     list-style-type: none;
     padding-left: 120px;
@@ -219,3 +224,63 @@ header button a {
     padding: 0 700px 5px 70px;
 }
 
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width:1250px) {
+
+
+    header {
+        border-bottom: 1px solid rgb(158, 171, 185);
+    }
+
+    header > h1 {
+        font-size: 35px;
+        padding-left: 150px;
+    }
+
+    header nav > ul,
+    header > div {
+        display: none;
+    }
+    
+    .feature {
+        display: none;
+    }
+
+    .info-section {
+        display: none;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-right img {
+        padding-left: 0;
+        width: 600px;
+        height: 100%;
+    }
+
+    .hero-left p {
+        padding: 20px 0 0 0;
+        font-size: 20px;
+    }
+
+    .hero-left input, button {
+        width: 100%;
+    }
+
+    .hero-left input {
+        margin-bottom: 10px;
+    }
+
+    header > i {
+        visibility: visible;
+        float: left;
+        padding: 15px 0 0 20px;
+        font-size: 26px;
+    }
+
+
+}
