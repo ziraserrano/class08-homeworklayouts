@@ -173,14 +173,40 @@ header button a {
 
 .feature {
     height: 300px;
+    color: rgb(53, 70, 88);
     border: 2px solid black;
 }
 
 .feature > section {
     height: 100%;
     width: 25%;
+    padding: 50px 40px 0 70px;
     float: left;
     border: 1px solid coral;
+}
+
+.feature section > i {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.feature section > h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.feature section > p {
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+
+.feature a {
+    font-weight: 600;
+}
+
+.feature a i {
+    font-size: 12px;
 }
 
 
@@ -190,3 +216,4 @@ header button a {
     height: 250px;
     border: 2px solid black;
 }
+
