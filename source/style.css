@@ -30,12 +30,12 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-    height: 75px;
+    height: 55px;
     border: 2px solid black;
 }
 
 
-/*** HEADER STYLE ***/
+/********** HEADER STYLE **********/
 
 header > h1 {
     height: 100%;
@@ -58,5 +58,45 @@ header > div {
     border: 1px solid coral;
 }
 
-/*** HERO-MAIN STYLE ***/
+/********** HERO-MAIN STYLE ***********/
 
+.hero-main {
+    height: 400px;
+    border: 2px solid black;
+}
+
+.hero-left {
+    height: 100%;
+    width: 40%;
+    float: left;
+    border: 1px solid coral;
+}
+
+.hero-right {
+    height: 100%;
+    width: 60%;
+    float: left;
+    border: 1px solid coral;
+}
+
+/********** FEATURE SECTION STYLE **********/
+
+.feature {
+    height: 300px;
+    border: 2px solid black;
+}
+
+.feature > section {
+    height: 100%;
+    width: 25%;
+    float: left;
+    border: 1px solid coral;
+}
+
+
+/********** INFO SECTION STYLE **********/
+
+.info-section {
+    height: 250px;
+    border: 2px solid black;
+}
