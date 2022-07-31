@@ -217,3 +217,15 @@ header button a {
     border: 2px solid black;
 }
 
+.info-section h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(53, 70, 88);
+    padding: 50px 700px 20px 70px;
+}
+
+.info-section p {
+    color: rgb(158, 171, 185);
+    padding: 0 700px 5px 70px;
+}
+
